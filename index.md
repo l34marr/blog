@@ -2,4 +2,5 @@
 
 - 時間: 2020/10/18 10:00~12:00
 - 地點: 燒炭窩 竹風樂境 / 新竹縣芎林鄉五龍村9鄰76號
-- 報名: https://greenschool.kktix.cc/events/odoo-meetup-20201018
+- 報名: http://greenschool.kktix.cc/events/odoo-meetup-20201018
+- 簡報: http://bit.ly/odoo-starter
