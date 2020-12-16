@@ -1,0 +1,24 @@
+<article id="content">
+ <header>
+ <div id="viewlet-above-content-title">
+  <span id="social-tags-body" style="display: none" itemscope="" itemtype="http://schema.org/WebPage"></span>
+ </div>
+ <h1 class="documentFirstHeading">前端後端的整合潮流</h1>
+ <div class="documentDescription description">在 PloneConf 2018 活動裡，討論主題之一是 Plone 系統的演化走向，相關議題則是展示 JavaScript 各式框架怎樣跟內容管理系統 REST API 進行整合。</div>
+ </header>
+<div id="viewlet-above-content-body"></div>
+<div id="content-core">
+ <div id="parent-fieldname-text" class=""><p>Plone 以 Python 語言寫成，歷經十餘年的發展，是個成熟穩定的內容管理系統，但另一個角度來看，它的架構設計顯得老舊，面臨新時代的轉型挑戰，怎樣與時俱進地整合新技術，例如熱門的 RESTful API 架構，和前端技術 React, Angular 該怎樣分工合作，這些都是倍受關注的議題。在 Reinventing Plone: Roadmap to the Modern Web 講題裡，Timo&nbsp;Stollenwerk 提及 Plone 可能的演化方向：</p>
+<h2>從 Python2 昇級到 Python3</h2>
+<p>這是核心開發團隊的表定工作，因為多數是移植的改寫苦工，投身的工程師通常得不到成就感，使用者可能也感受不到新版的差異。除了照表操課外，也有人興起直接用 Python3 重新打造 <i class="glyphicon link-https"></i><a href="https://css-tricks.com/what-is-a-headless-cms/">Headless CMS</a> 來整合前端程式，即使只為了<i class="glyphicon link-https"></i><a href="https://community.plone.org/t/the-disappointing-quest-for-a-headless-cms/5090">趕流行</a>，恐怕都不得不重視這股潮流。</p>
+<h2>以 Python3 重新打造新後端</h2>
+<p><i class="glyphicon link-https"></i><a href="https://plone.org/what-is-plone/guillotina">Guillontina</a> 是一個後端系統，能滿足非同步高效能網頁需求，同時支援 JavaScript 應用程式整合開發。效能是基於 AsyncIO 的底層設計，特別適合 WebSocket 或 MicroService 的應用場景，權限機制也能細緻管控系統流程。</p>
+<h2>以 React 取代前端</h2>
+<p>開發團隊同時試了 React, Angular, Vue 但 React 生態系回應最踴躍，因此逐漸穩定地整合了 Redux, Semantic UI，也就是更接近 React 開發社群的習慣。</p>
+ </div>
+</div>
+<div id="viewlet-below-content-body">
+ <div class="visualClear"><!-- --></div>
+ <div class="documentActions"></div>
+</div>
+</article>
